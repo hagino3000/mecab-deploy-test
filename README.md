@@ -1,5 +1,7 @@
 # MeCab deploy test
 
+[![Build Status](https://api.travis-ci.org/hagino3000/mecab-deploy-test.svg)](https://travis-ci.org/hagino3000/mecab-deploy-test)
+
 Testing for mecab-python deployment
 
 ## Run Local Server
