@@ -1,5 +1,9 @@
 sudo apt-get update -y
 
+sudo locale-gen ja_JP.UTF-8
+sudo dpkg-reconfigure locales
+
+
 sudo apt-get install python -y
 sudo apt-get install python-dev -y
 sudo apt-get install python-pip -y

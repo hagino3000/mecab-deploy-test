@@ -13,4 +13,4 @@ python:
 install:
   - "pip install -r requirements.txt"
   - "pip install ."
-script: "python test.py"
+script: "python tests.py"
