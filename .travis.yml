@@ -1,7 +1,8 @@
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y mecab-ipadic-utf8
-  - sudo apt-get install -y libmecab-dev
+  - wget http://ftp.sjtu.edu.cn/ubuntu/pool/universe/m/mecab/libmecab-dev_0.996-1.1_amd64.deb
+  - sudo dpkg -i libmecab-dev_0.996-1.1_amd64.deb
 language: python
 python:
   - "2.7"
